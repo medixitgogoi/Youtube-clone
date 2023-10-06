@@ -1,7 +1,7 @@
 import { useContext, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Context } from '../context/contextApi';
-import Loader from '../loader/loader';
+import Loader from '../loader/Loader';
 import { CgClose } from "react-icons/cg";
 import { SlMenu } from "react-icons/sl";
 import { RiVideoAddLine } from "react-icons/ri";
