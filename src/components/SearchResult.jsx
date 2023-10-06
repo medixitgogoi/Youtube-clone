@@ -13,7 +13,6 @@ const SearchResult = () => {
 
     useEffect(() => {
         fetchSearchResults();
-        window.scrollTo(0, 0);
     }, [searchQuery])
 
     const fetchSearchResults = () => {

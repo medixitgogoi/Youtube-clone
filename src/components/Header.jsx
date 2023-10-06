@@ -71,7 +71,7 @@ const Header = () => {
                         className="bg-transparent outline-none text-white text-[13px] px-5 md:pl-0 w-52 md:w-64 lg:w-[450px]"
                         onChange={(e) => setSearchQuery(e.target.value)}
                         onKeyUp={searchQueryHandler}
-                        placeholder="Search"
+                        placeholder={`Search for "new songs" `}
                         value={searchQuery}
                     />
                 </div>
